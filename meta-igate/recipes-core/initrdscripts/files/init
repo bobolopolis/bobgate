@@ -1,0 +1,13 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+
+printf "foo\n"
+
+sleep 30
+
+exec sh
