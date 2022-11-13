@@ -1,0 +1,27 @@
+header:
+  version: 1
+machine: drannit
+distro: igate
+target: virtual/kernel
+repos:
+  meta-igate:
+    layers:
+      meta-igate:
+  meta-bob-bsp:
+    url: "git@github.com:bobolopolis/meta-bob-bsp.git"
+    refspec: 250643bffc432612469bf33a03bce784c74dab16
+  poky:
+    url: "https://git.yoctoproject.org/poky"
+    refspec: 1cb13d24b592986a44fd653e083b7711513fc916
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+  meta-openembedded:
+    url: "https://git.openembedded.org/meta-openembedded"
+    refspec: 50d4a8d2a983a68383ef1ffec2c8e21adf0c1a79
+    layers:
+      meta-oe:
+  meta-amateurradio:
+    url: "https://github.com/adrians/meta-amateurradio.git"
+    refspec: b8b2bcacd5b427c959ebc77e3d2814b0ae25bfab
