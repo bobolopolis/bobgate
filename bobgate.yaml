@@ -9,7 +9,7 @@ repos:
       meta-igate:
   meta-bob-bsp:
     url: "git@github.com:bobolopolis/meta-bob-bsp.git"
-    refspec: 250643bffc432612469bf33a03bce784c74dab16
+    refspec: 99d02ad0456e1eb68e00987fa9c6d19c16f9d4e2
   poky:
     url: "https://git.yoctoproject.org/poky"
     refspec: 1cb13d24b592986a44fd653e083b7711513fc916
