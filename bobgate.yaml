@@ -2,7 +2,7 @@ header:
   version: 1
 machine: drannit
 distro: igate
-target: virtual/kernel
+target: core-image-empty
 repos:
   meta-igate:
     layers:
