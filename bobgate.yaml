@@ -9,17 +9,17 @@ repos:
       meta-igate:
   meta-bob-bsp:
     url: "git@github.com:bobolopolis/meta-bob-bsp.git"
-    refspec: 99d02ad0456e1eb68e00987fa9c6d19c16f9d4e2
+    refspec: ece7a62d6c31adfe8809608ff301d33886567dab
   poky:
     url: "https://git.yoctoproject.org/poky"
-    refspec: 1cb13d24b592986a44fd653e083b7711513fc916
+    refspec: b5596124ee7b2e0685f010de9659ed3c76f5d2b4
     layers:
       meta:
       meta-poky:
       meta-yocto-bsp:
   meta-openembedded:
     url: "https://git.openembedded.org/meta-openembedded"
-    refspec: 50d4a8d2a983a68383ef1ffec2c8e21adf0c1a79
+    refspec: c4829fa338dae008c75cfffd4a712813a99c33c4
     layers:
       meta-oe:
   meta-amateurradio:
